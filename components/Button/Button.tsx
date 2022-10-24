@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import styles from "./Button.module.css";
-import classnames from "classNames/bind";
+import classnames from "classnames/bind";
 
 const cx = classnames.bind(styles);
 
@@ -13,10 +13,10 @@ interface ButtonProps {
 
 const Button: FC<ButtonProps> = (props) => {
   const { children, active, className = [], onClick } = props;
-  const classNames = [cx("button", active && "active"), ...className];
+  const classnames = [cx("button", active && "active"), ...className];
 
   return (
-    <button className={classNames.join(" ")} onClick={onClick}>
+    <button className={classnames.join(" ")} onClick={onClick}>
       {children}
     </button>
   );
