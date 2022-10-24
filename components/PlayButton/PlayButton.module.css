@@ -1,0 +1,51 @@
+.container {
+  height: 90px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  opacity: 0.75;
+  border: 2px solid #a59bf3;
+  border-radius: 50%;
+  color: #a59bf3;
+  font-size: 44px;
+  cursor: pointer;
+}
+
+.mouse-entering {
+  animation-name: border-change;
+  animation-duration: 0.5s;
+}
+
+.mouse-entering {
+  border-color: white;
+  color: white;
+}
+
+.mouse-leaving {
+  animation-name: border-back;
+  animation-duration: 0.5s;
+}
+
+@keyframes border-change {
+  from {
+    border-color: #a59bf3;
+    color: #a59bf3;
+  }
+  to {
+    border-color: #fff;
+    color: #fff;
+  }
+}
+
+@keyframes border-back {
+  from {
+    border-color: #fff;
+    color: #fff;
+  }
+  to {
+    border-color: #a59bf3;
+    color: #a59bf3;
+  }
+}

@@ -1,0 +1,31 @@
+.container {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.progressBar > .CircularProgressbar-path {
+  background-color: red;
+}
+
+.secondCercle {
+  width: 243px;
+  height: 243px;
+  border-radius: 50%;
+  border: 12px solid #9181ed;
+  position: absolute;
+}
+
+.thirdCercle {
+  width: 100%;
+  height: 100%;
+  background-color: #806cfb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
