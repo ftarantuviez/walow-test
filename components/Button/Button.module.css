@@ -16,3 +16,9 @@
 .active:hover {
   background-color: #9e92f8;
 }
+
+@media screen and (max-width: 768px) {
+  .button {
+    font-size: 16px;
+  }
+}

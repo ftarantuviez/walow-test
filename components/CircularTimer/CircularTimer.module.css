@@ -8,10 +8,6 @@
   position: relative;
 }
 
-.progressBar > .CircularProgressbar-path {
-  background-color: red;
-}
-
 .secondCercle {
   width: 243px;
   height: 243px;
@@ -28,4 +24,15 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 240px;
+    height: 240px;
+  }
+  .secondCercle {
+    width: 203px;
+    height: 203px;
+  }
 }

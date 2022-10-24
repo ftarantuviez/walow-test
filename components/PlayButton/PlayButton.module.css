@@ -49,3 +49,10 @@
     color: #a59bf3;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 60px;
+    height: 60px;
+  }
+}

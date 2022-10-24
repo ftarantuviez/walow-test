@@ -16,7 +16,6 @@ const CircularTimer: FC<CircularTimerProps> = (props) => {
     pathTransitionDuration: 0.5,
     pathColor: `rgba(192,187,227, 1)`,
     trailColor: "#7f7e9a",
-    /* backgroundColor: "#7f7e9a", */
   });
   return (
     <div className={styles.container}>
